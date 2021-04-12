@@ -1,0 +1,4 @@
+include ':app_skin'
+include ':skin_library'
+include ':app'
+rootProject.name = "Skin_core"

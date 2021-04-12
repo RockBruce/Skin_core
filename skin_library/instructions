@@ -1,0 +1,5 @@
+换肤功能（只要我们制作的换肤apk资源名字跟工程用到的名字一样都会进行替换,我们自作的换肤apk里面自由资源而已,没有别的代码。提供给工程下载）
+1.在Application中调用
+SkinManager.init(this)
+2.进行换肤 f.getAbsolutePath()这个路径就是下载后的换肤apk的路径
+SkinManager.getInstance().loadSkin(f.getAbsolutePath());
